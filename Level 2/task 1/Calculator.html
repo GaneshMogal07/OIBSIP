@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!-- saved from url=(0068)file:///C:/Users/Ganesh/Desktop/OIBSIP/Level%202/task%201/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./Calculator_files/styles.css">
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" id="display" disabled="">
+        <div class="buttons">
+            <!-- Number and operator buttons -->
+            <button onclick="appendValue(&#39;1&#39;)">1</button>
+            <button onclick="appendValue(&#39;2&#39;)">2</button>
+            <button onclick="appendValue(&#39;3&#39;)">3</button>
+            <button onclick="appendOperator(&#39;+&#39;)">+</button>
+
+            <button onclick="appendValue(&#39;4&#39;)">4</button>
+            <button onclick="appendValue(&#39;5&#39;)">5</button>
+            <button onclick="appendValue(&#39;6&#39;)">6</button>
+            <button onclick="appendOperator(&#39;-&#39;)">-</button>
+
+            <button onclick="appendValue(&#39;7&#39;)">7</button>
+            <button onclick="appendValue(&#39;8&#39;)">8</button>
+            <button onclick="appendValue(&#39;9&#39;)">9</button>
+            <button onclick="appendOperator(&#39;*&#39;)">*</button>
+
+            <button onclick="appendValue(&#39;0&#39;)">0</button>
+            <button onclick="appendValue(&#39;.&#39;)">.</button>
+            <button onclick="calculate()">=</button>
+            <button onclick="appendOperator(&#39;/&#39;)">/</button>
+
+            <button onclick="clearDisplay()" class="clear">C</button>
+        </div>
+    </div>
+
+    <script src="./Calculator_files/script.js.download"></script>
+
+
+</body></html>

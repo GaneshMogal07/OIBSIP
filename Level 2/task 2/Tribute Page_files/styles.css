@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #333;
+}
+
+.tribute-container {
+    width: 80%;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #7f8c8d;
+    margin-bottom: 20px;
+}
+
+.image-section {
+    margin: 20px 0;
+}
+
+.image-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.image-section caption {
+    font-size: 0.9em;
+    color: #7f8c8d;
+    display: block;
+    margin-top: 8px;
+}
+
+.bio-section {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.bio-section h2 {
+    font-size: 2em;
+    color: #2980b9;
+    margin-bottom: 15px;
+}
+
+.bio-section p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #4f4f4f;
+}
+
+footer p {
+    font-size: 1em;
+    color: #7f8c8d;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
